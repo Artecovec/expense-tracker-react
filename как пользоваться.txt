@@ -1,0 +1,24 @@
+npm install
+ cd client npm install
+ cd ..
+ 
+ # Run front and backend
+ npm run dev
+ 
+ # Backend only
+ npm run server
+ 
+ # Frontend only
+ npm run client
+ 
+ # Build client
+ cd client
+ npm run build
+ 
+ # Prod
+ npm start
+
+Т.е 
+1. в корне запускаем npm start
+2. идем в браузер и в адресной строке пишем http://localhost:5000/ 
+там работает наше приложение с сервером (типа прод).
